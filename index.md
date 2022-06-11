@@ -1,5 +1,20 @@
 # EDDY'S CYBER GARAGE
 
+[SOLAR SYSTEM SIMULATION](#solar-simulation-for-my-son-mars)
+
+[GREEDY WORMS](#greedy-worms-for-my-son-mars)
+
+[SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
+
+[APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
+
+[REVERSI](#reversi)
+
+## SHANGHAI PANDEMIC SIMULATION
+
+## APOLLO MUSIC IMPROVISING
+
+## REVERSI
 
 ## SOLAR SIMULATION (FOR MY SON MARS)
 
@@ -109,6 +124,7 @@ This was the project I did
 ![img](img/greedy_worms/a7.jpeg)
 ![img](img/greedy_worms/a8.jpeg)
 ![img](img/greedy_worms/a9.jpeg)
+![img](img/greedy_worms/a10.jpeg)
 
 
 

@@ -1,28 +1,9 @@
-## EDDY'S SECRET GARAGE
-
-### SOLAR SIMULATION FOR MY SON, MARS
+## SOLAR SIMULATION FOR MY SON, MARS
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-![test img](img/solar/Screen Shot 2022-06-11 at 16.34.25.png)
+![test img](./img/solar/Screen Shot 2022-06-11 at 16.34.25.png)
 
 [Wikipedia on the Elliptic orbit](https://en.wikipedia.org/wiki/Elliptic_orbit)
 

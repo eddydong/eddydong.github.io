@@ -1,3 +1,5 @@
+#EDDY'S SECRET GARAGE
+
 ## SOLAR SIMULATION FOR MY SON, MARS
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

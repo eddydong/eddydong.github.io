@@ -1,6 +1,6 @@
-## HEY, FINALLY YOU FOUND MY PLAYGROUND!
+## EDDY'S SECRET GARAGE
 
-### Markdown
+### SOLAR SIMULATION FOR MY SON, MARS
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -22,7 +22,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-![test img](Screen Shot 2022-05-31 at 08.37.00.png)
+![test img](img/solar/Screen Shot 2022-06-11 at 16.34.25.png)
 
 [Wikipedia on the Elliptic orbit](https://en.wikipedia.org/wiki/Elliptic_orbit)
 

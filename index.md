@@ -10,7 +10,7 @@ Then you can try to orbit your home - the Earth. At the given speed of 7.9km/s, 
 
 ![img](img/solar/2.png)
 
-This is your spaceship. Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time. 
+Then you might thing of something bigger. Let's try to travel to the Saturn and orbit it! Since it's such a LONG distance
 
 ![img](img/solar/3.png)
 
@@ -35,6 +35,7 @@ To build this, I started off by researching on the physics behind the curtain, l
 Then I setup an annimation loop to visualize all objects and their ever changin properties.
 
 ```markdown
+//name, img, imgScale, imgOffsetX, imgOffsetY, x, y, r, m, v, dv
 r=Math.pow((X-x)*(X-x)+(Y-y)*(Y-y),1/2);
 A=dv-getAngle(X-x, Y-y);
 a=-G*M*m/(m*v*v-2*G*M*m/r);
@@ -49,6 +50,7 @@ rot=t+getAngle(x,y);
 ```
 
 ```markdown
+//name, img, imgScale, imgOffsetX, imgOffsetY, x, y, r, m, v, dv
 earth= new Ball('Earth', ImgEarth, 1.02, 0,0, -1.5e11, 0, 6.375e6, 5.965e24, 29.79e3, Math.PI/2);
 moon=new Ball('Moon', ImgMoon, 1, 0,0,  -384000e3-1.5e11,0, 1738.14e3, 7.349e22, 1020+29.79e3, Math.PI/2);
 sun = new Ball('Sun', ImgSun, 1.17,  0,0, 0,0, 696300e3, 1.989e30, 0, 0);

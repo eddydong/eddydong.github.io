@@ -1,6 +1,7 @@
 # EDDY'S SECRET GARAGE
 
-## SOLAR SIMULATION FOR MY SON, MARS
+
+## SOLAR SIMULATION (FOR MY SON MARS)
 
 Floating in the solitude of the deep darkness of the universe, this is your super spaceship. To simplify thing, this is just a 2-dimentional simulation, but should be very much like the 3-D scenario. Also in this simulated universe, there is only the Sun and its 9 planets (Pluto included for the moment). Gravity is considered in beteen any 2 of the 10 astronomical objects.
 

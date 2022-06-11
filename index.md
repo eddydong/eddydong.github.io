@@ -22,7 +22,13 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-![test img](img/solar/Screen Shot 2022-06-11 at 16.34.25.png)
+![img](img/solar/1.png)
+![img](img/solar/2.png)
+![img](img/solar/3.png)
+![img](img/solar/4.png)
+![img](img/solar/5.png)
+![img](img/solar/6.png)
+![img](img/solar/7.png)
 
 [Wikipedia on the Elliptic orbit](https://en.wikipedia.org/wiki/Elliptic_orbit)
 

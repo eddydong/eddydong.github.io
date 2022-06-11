@@ -2,7 +2,7 @@
 
 ## SOLAR SIMULATION FOR MY SON, MARS
 
-This is your spaceship. Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time. [Transport me to that Spaceship!](https://eddydong.github.io/solar)
+Floating in the solitude of the deep darkness of the universe, this is your super spaceship. Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time. [Transport me to that Spaceship!](https://eddydong.github.io/solar)
 
 ![img](img/solar/1.png)
 
@@ -10,7 +10,7 @@ Then you can try to orbit your home - the Earth. At the given speed of 7.9km/s, 
 
 ![img](img/solar/2.png)
 
-Then you might thing of something bigger. Let's try to travel to the Saturn and orbit it! Since it's such a LONG distance
+Then you might think of something bigger. Let's try to travel to the other planet and orbit it? Maybe the most unique looking one the the big ring? Why not! Since it's such a LONG distance between the Saturn and the Earth, you may need to accelerate to the speed of light - no worries here your super space literally has no limit on speed! Just push up and and it will bring you God speed.
 
 ![img](img/solar/3.png)
 

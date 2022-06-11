@@ -38,9 +38,7 @@ Finally, let's do some physical experiments, like the 2-star system. If you put 
 
 ![img](img/solar/7.png)
 
-To build this, I started off by researching on the physics behind the curtain, like the [Wikipedia on the Elliptic orbit](https://en.wikipedia.org/wiki/Elliptic_orbit) and ...
-
-Then I setup an annimation loop to visualize all objects and their ever changin properties.
+To build this, I started off by researching on the physics behind the curtain, like the [Wikipedia on the Elliptic orbit](https://en.wikipedia.org/wiki/Elliptic_orbit) and many more. Finally I concluded the following key formulars for the computation of real-time orbit, speed/acceleration and the angle for each and every astronomical bodies including the little spaceship.
 
 ```markdown
 //name, img, imgScale, imgOffsetX, imgOffsetY, x, y, r, m, v, dv
@@ -57,6 +55,8 @@ t= Math.acos(tt);
 rot=t+getAngle(x,y);
 ```
 
+All phsical data were obtained from the internet and should be roughly reflect the reality of our Solar System.
+
 ```markdown
 //name, img, imgScale, imgOffsetX, imgOffsetY, x, y, r, m, v, dv
 earth= new Ball('Earth', ImgEarth, 1.02, 0,0, -1.5e11, 0, 6.375e6, 5.965e24, 29.79e3, Math.PI/2);
@@ -72,3 +72,12 @@ neptune = new Ball('Neptune', ImgNeptune, 1, 0,0,  -30.1104*AU,0, 24764e3, 5.965
 
 me = new Ball('Ship', ImgShip, 1, 0,0, -(6.375e6+1e2+550e3)-1.5e11, 0, 1e2, 100e3, 9000+29.79e3, Math.PI/2+0.01);
 ```
+
+Then I setup an annimation loop with [RequestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) and use the [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) to visualize all objects and their ever ever-changing properties.
+
+This project was designed & implemented for my son, Mars, who is a big fun of Astronomy back in 2020 or so - 2 years ago from today. Not all funcitonalities mentioned above were were consolidated into the same program, the html file, yet, meaning you may need to try other ones in the same folder - let me know if you have particular interest in any of them and I'll help you find it out.
+
+Hope it inspires you in some way.
+
+Eddy K. Dong
+June 11, 2022

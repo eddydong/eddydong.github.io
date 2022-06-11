@@ -89,6 +89,8 @@ June 11, 2022
 
 ## GREEDY WORMS (FOR MY SON MARS)
 
+This was the project I did
+
 ![img](img/greedy_worms/1.jpg)
 ![img](img/greedy_worms/2.jpg)
 ![img](img/greedy_worms/3.jpg)
@@ -98,6 +100,15 @@ June 11, 2022
 ![img](img/greedy_worms/7.jpg)
 ![img](img/greedy_worms/8.jpg)
 ![img](img/greedy_worms/9.jpg)
+![img](img/greedy_worms/a1.jpeg)
+![img](img/greedy_worms/a2.jpeg)
+![img](img/greedy_worms/a3.jpeg)
+![img](img/greedy_worms/a4.jpeg)
+![img](img/greedy_worms/a5.jpeg)
+![img](img/greedy_worms/a6.jpeg)
+![img](img/greedy_worms/a7.jpeg)
+![img](img/greedy_worms/a8.jpeg)
+![img](img/greedy_worms/a9.jpeg)
 
 
 
@@ -107,4 +118,5 @@ June 11, 2022
 
 All Right Reserved (C) Eddy K. Dong 2022
 [GO BACK TO TOP](#eddys-cyber-garage)
+
 

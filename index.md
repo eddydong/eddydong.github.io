@@ -34,7 +34,7 @@ To build this, I started off by researching on the physics behind the curtain, l
 
 Then I setup an annimation loop to visualize all objects and their ever changin properties.
 
-```
+```markdown
 r=Math.pow((X-x)*(X-x)+(Y-y)*(Y-y),1/2);
 A=dv-getAngle(X-x, Y-y);
 a=-G*M*m/(m*v*v-2*G*M*m/r);

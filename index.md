@@ -82,3 +82,24 @@ Hope it inspires you in some way.
 
 Eddy K. Dong
 June 11, 2022
+
+
+
+## GREEDY WORMS (FOR MY SON MARS)
+
+![img](img/greedy_worms/1.jpg)
+![img](img/greedy_worms/2.jpg)
+![img](img/greedy_worms/3.png)
+![img](img/greedy_worms/4.png)
+![img](img/greedy_worms/5.png)
+![img](img/greedy_worms/6.png)
+![img](img/greedy_worms/7.png)
+![img](img/greedy_worms/8.png)
+![img](img/greedy_worms/9.png)
+
+
+
+
+
+
+

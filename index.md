@@ -220,6 +220,9 @@ t= Math.acos(tt);
 rot=t+getAngle(x,y);
 ```
 
+Here is one of the original sketches I made to figure the physics out, which led to above shown codes:
+![img](img/solar/IMG_9948.jpeg)
+
 All phsical data were obtained from the internet and should be roughly reflect the reality of our Solar System.
 
 ```markdown
@@ -239,9 +242,6 @@ me = new Ball('Ship', ImgShip, 1, 0,0, -(6.375e6+1e2+550e3)-1.5e11, 0, 1e2, 100e
 ```
 
 Then I setup an annimation loop with [RequestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) and used the [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) to visualize all objects and their ever changing properties.
-
-Here is one of the original sketches I made to figure the physics out:
-![img](img/solar/IMG_9948.jpeg)
 
 This project was designed & implemented for my son, Mars, who is a big fun of Astronomy back in 2020 or so - 2 years ago from today. Not all funcitonalities mentioned above were were consolidated into the same program, the html file, yet, meaning you may need to try other ones in the same folder - let me know if you have particular interest in any of them and I'll help you find it out.
 

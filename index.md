@@ -345,37 +345,44 @@ function cango(player, themap){
 };
 ```
 
-For #2, you need to calculate your gain (or your loss if current player is your opponent):
+For #2, you need to calculate your gain (or your loss if current player is your opponent) with a [recursive function](https://en.wikipedia.org/wiki/Recursion_(computer_science)) like the following:
 ```markdown
-function caneat(player, themap, x,y){
-	var offset, count=0, value=0, buff=[];
-	if (themap[y][x]!=0) return [0,0];
-	for (var d=0;d<8;d++){
-		offset=1; 
-		buff=[];
-		while (y+dir[d][1]*offset>=0 && y+dir[d][1]*offset<mapsize && 
-			x+dir[d][0]*offset>=0 && x+dir[d][0]*offset<mapsize && 
-			themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==3-player){
-			buff.push(xp[y+dir[d][1]*offset][x+dir[d][0]*offset]);
-			offset++;
+function bestmove(player, ai_level){
+	var tempmap=[], direct_gain;
+	var maxgain, maxx, maxy, over=true;
+	for (var i=0; i<mapsize; i++)
+		for (var j=0; j<mapsize; j++) {
+			direct_gain=caneat(player, draftmap, j,i);
+			if (direct_gain[0]>0){			
+				if (ai_level>1){
+					tempmap=copymap(draftmap);
+					eat(player, draftmap, j, i);
+					var res, gain;
+					res = bestmove(3-player, ai_level-1);
+					if (res[2]==-99991021) {
+						bestmove(player, ai_level-1);
+						gain = direct_gain[1] + res[2];
+					} else gain = direct_gain[1] - res[2];
+					draftmap=copymap(tempmap);
+				} else gain=direct_gain[1];
+				if (maxgain==null || gain > maxgain || 
+					(gain==maxgain && Math.random()>0.5)){
+					maxgain=gain;
+					maxx=j;
+					maxy=i;
+				};
+				over=false;
+			};
 		};
-		if (y+dir[d][1]*offset>=0 && y+dir[d][1]*offset<mapsize && 
-			x+dir[d][0]*offset>=0 && x+dir[d][0]*offset<mapsize && 
-			themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==player){
-			count+=offset-1;
-			for (var i=0; i<buff.length; i++)
-				value+=buff[i];
-		};
+	if (over){
+		if (player==curPlayer) maxgain=-99999
+			else maxgain=-99991021;
 	};
-	if (count>0){
-		count++;
-		value+=xp[y][x];
-	};
-	return [count, value];
+	return [maxx,maxy,maxgain];
 };
 ```
 
-Please refer to the [Github Project](https://github.com/eddydong/reversi) for the rest of the program, together with other versions, for instance the "AI Combat Mode", in which you put different AI algorithms, or the same algorithm but with different sets of AI parameters, and let them fight with each other and find out who is number one. You may setup 100 rounds and record the win's and loss'es for each algorithm - just like the A/B test.
+Please refer to the [Github Project](https://github.com/eddydong/reversi) for the rest of the program, together with other versions, for instance the "AI Combat Mode", in which you put different AI algorithms, or the same algorithm but with different sets of AI parameters, and let them fight with each other and find out who is number one. You may setup 100 rounds and record the win's and loss'es for each algorithm - just like the A/B test. [AI Combat Version](https://eddydong.github.io/reversi/reversi AI arena 1.html)
 
 Theoretically, if the computer is fast enough to do a 30 level deep thinking using this algorithm, there will be no chance for its challenger to win at all. But the reality is: this algorithm runs slow even on a modern computer when the depth of search is set above 6. In other words, although it has already been very hard to defeat, but it's obviously not 100% sure that it will win the game.
 

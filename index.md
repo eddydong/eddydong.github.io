@@ -303,6 +303,20 @@ This was the project I did
 
 [Play Reversi with Eddy's bot!](https://eddydong.github.io/reversi)
 
+![img](img/reversi/1.jpg)
+
+This is to commemorate my first AI algorithm back in 2001. The original one was down in Turbo Pascal and then Delphi - you're old enough if you heard of those names ;-) - and now rewritten in Javascript.
+
+The basic idea was like the following:
+
+1. List all eligible positions that you can place your piece at;
+2. Note down the gain (number of opponent pieces you can reverse) you can get for each of these eligible positions;
+3. Imagine you are now your opponent, and repeat #1 & #2 but for #2 you add a minus sign in front of the gain;
+4. Repeat step #1 to #3 for several times (depth of AI thinking);
+5. The position with the highest gain value should be your next step.
+
+
+
 
 All Right Reserved (C) Eddy K. Dong 2022
 [GO BACK TO TOP](#eddys-cyber-garage)

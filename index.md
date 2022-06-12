@@ -1,7 +1,20 @@
 # EDDY'S CYBER GARAGE
 
+[SOLAR SYSTEM SIMULATION](#solar-simulation-for-my-son-mars)
 
-## SOLAR SIMULATION (FOR MY SON MARS)
+[GREEDY WORMS](#greedy-worms-for-my-son-mars)
+
+[SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
+
+[APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
+
+[REVERSI](#reversi)
+
+### APOLLO MUSIC IMPROVISING
+
+### SHANGHAI PANDEMIC SIMULATION
+
+### SOLAR SIMULATION (FOR MY SON MARS)
 
 Floating in the solitude of the deep darkness of the universe, this is your super spaceship. To simplify thing, this is just a 2-dimentional simulation, but should be very much like the 3-D scenario. Also in this simulated universe, there is only the Sun and its 9 planets (Pluto included for the moment). Gravity is considered in beteen any 2 of the 10 astronomical objects.
 
@@ -87,7 +100,7 @@ June 11, 2022
 
 
 
-## GREEDY WORMS (FOR MY SON MARS)
+### GREEDY WORMS (FOR MY SON MARS)
 
 This was the project I did
 
@@ -109,11 +122,15 @@ This was the project I did
 ![img](img/greedy_worms/a7.jpeg)
 ![img](img/greedy_worms/a8.jpeg)
 ![img](img/greedy_worms/a9.jpeg)
+![img](img/greedy_worms/a10.jpeg)
 
 
 
 
 
+
+
+### REVERSI
 
 
 All Right Reserved (C) Eddy K. Dong 2022

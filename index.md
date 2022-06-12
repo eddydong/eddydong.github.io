@@ -12,14 +12,14 @@
 
 ### APOLLO MUSIC IMPROVISING
 
-[Listen to the endless piano & cello duet improvised by Apollo](https://eddydong.github.io/apollo)
+[Listen to the endless piano & cello duet improvised by Apollo](https://eddydong.github.io/apollo){:target="_blank"}
 
 
 [GO BACK TO TOP](#eddys-cyber-garage)
 
 ### SHANGHAI PANDEMIC SIMULATION
 
-Hey guys this is Eddy. I’m been working from home in Shanghai for 6 weeks in a row and now trapped in the lockdown. Like everyone in this city, I want to know more about what’s going on, and what it could be moving forward. So I devoted my weekend to write [this simulator](https://eddydong.github.io/shanghai).
+Hey guys this is Eddy. I’m been working from home in Shanghai for 6 weeks in a row and now trapped in the lockdown. Like everyone in this city, I want to know more about what’s going on, and what it could be moving forward. So I devoted my weekend to write [this simulator](https://eddydong.github.io/shanghai){:target="_blank"}.
 
 ![img](img/shanghai/0.jpeg)
 

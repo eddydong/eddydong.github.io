@@ -384,6 +384,9 @@ function bestmove(player, ai_level){
 
 Please refer to the [My Github Project](https://github.com/eddydong/reversi) for the rest of the program, together with other versions, for instance the "AI Combat Mode", in which you put different AI algorithms, or the same algorithm but with different sets of AI parameters, and let them fight with each other and find out who is number one. You may setup 100 rounds and record the win's and loss'es for each algorithm - just like the A/B test. [AI Combat Version](https://eddydong.github.io/reversi/reversi AI arena 1.html)
 
+Here is a screenshot for the ongoing combat between 2 of my algorithms:
+![img](img/reversi/2.jpg)
+
 Theoretically, if the computer is fast enough to do a 30 level deep thinking using this algorithm, there will be no chance for its challenger to win at all. But the reality is: this algorithm runs slow even on a modern computer when the depth of search is set above 6. In other words, although it has already been very hard to defeat, but it's obviously not 100% sure that it will win the game.
 
 One way to improve this is to add some human experience rules on top of the search algorithm. To be specific, at the last (bottom) layer of the imaginary evaluation, instead of returning the gain/loss of that layer, arbitrage human touches on important positions on the map - like the 4 corners and some positions near them, and the 4 edges etc - will be added on top of the results of the search algorithm.

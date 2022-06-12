@@ -307,7 +307,7 @@ This was the project I did
 
 This is to commemorate my first AI algorithm back in 2001. The original one was down in Turbo Pascal and then Delphi - you're old enough if you heard of those names ;-) - and now rewritten in Javascript.
 
-The basic idea was like the following:
+The basic idea behind the AI algorithm was like the following:
 
 1. List all eligible positions that you can place your piece at;
 2. Note down the gain (number of opponent pieces you can reverse) you can get for each of these eligible positions;
@@ -315,6 +315,80 @@ The basic idea was like the following:
 4. Repeat step #1 to #3 for several times (depth of AI thinking);
 5. The position with the highest gain value should be your next step.
 
+First you need to setup the chess map:
+
+For #1, you need define the game rules - how to define an eligible move:
+```markdown
+function cango(player, themap){
+	for (var i=0; i<mapsize; i++)
+		for (var j=0; j<mapsize; j++)
+			if (caneat(player,themap, j,i)[0]>0) return true;
+	return false;
+};
+```
+
+For #2, you need to calculate your gain (or your loss if current player is your opponent):
+```markdown
+function caneat(player, themap, x,y){
+	var offset, count=0, value=0, buff=[];
+	if (themap[y][x]!=0) return [0,0];
+	for (var d=0;d<8;d++){
+		offset=1; 
+		buff=[];
+		while (y+dir[d][1]*offset>=0 && y+dir[d][1]*offset<mapsize && 
+			x+dir[d][0]*offset>=0 && x+dir[d][0]*offset<mapsize && 
+			themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==3-player){
+			buff.push(xp[y+dir[d][1]*offset][x+dir[d][0]*offset]);
+			offset++;
+		};
+		if (y+dir[d][1]*offset>=0 && y+dir[d][1]*offset<mapsize && 
+			x+dir[d][0]*offset>=0 && x+dir[d][0]*offset<mapsize && 
+			themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==player){
+			count+=offset-1;
+			for (var i=0; i<buff.length; i++)
+				value+=buff[i];
+		};
+	};
+	if (count>0){
+		count++;
+		value+=xp[y][x];
+	};
+	return [count, value];
+};
+```
+
+For #3, you need to not only swap current player and do #1 & #2 again: 
+```markdown
+function eat(player, themap, x,y){
+	var done=false, offset=0, eating=false, count=0;
+	if (themap[y][x]!=0) return 0;
+	for (var d=0;d<8;d++){
+		done=false, offset=0, eating=false;
+		while (!done){
+			offset++;
+			if (y+dir[d][1]*offset>mapsize-1 || y+dir[d][1]*offset<0 || 
+				x+dir[d][0]*offset>mapsize-1 || x+dir[d][0]*offset<0 || 
+				themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==0 || 
+				themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==player) 
+				done=true;
+			if (offset>1 &&
+				y+dir[d][1]*offset>=0 && y+dir[d][1]*offset<mapsize && 
+				x+dir[d][0]*offset>=0 && x+dir[d][0]*offset<mapsize && 
+				themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==player) 
+				eating=true;
+		};
+		if (eating && offset>1) {
+			for (var k=1;k<=offset;k++) 
+				themap[y+dir[d][1]*k][x+dir[d][0]*k]=player;
+			count+=offset-1;
+			themap[y][x]=player;
+		};
+	};
+	return count;
+};
+```
+
+For #4, you need a draft map to make the imaginary moves used for the gain calculation - just like you use a draft paper to calculate before you write down the answer on your answer sheet.
 
 
 

@@ -12,6 +12,8 @@
 
 ### APOLLO MUSIC IMPROVISING
 
+[Listen to the endless piano & cello duet improvised by Apollo](https://eddydong.github.io/apollo)
+
 
 [GO BACK TO TOP](#eddys-cyber-garage)
 
@@ -283,6 +285,8 @@ This was the project I did
 [GO BACK TO TOP](#eddys-cyber-garage)
 
 ### REVSERSI
+
+[Play Reversi with Eddy's bot!](https://eddydong.github.io/reversi)
 
 
 All Right Reserved (C) Eddy K. Dong 2022

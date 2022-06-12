@@ -167,9 +167,9 @@ All Right Reserved (C) Eddy K. Dong 2022
 
 ### SOLAR SIMULATION (FOR MY SON MARS)
 
-Floating in the solitude of the deep darkness of the universe, this is your super spaceship. To simplify thing, this is just a 2-dimentional simulation, but should be very much like the 3-D scenario. Also in this simulated universe, there is only the Sun and its 9 planets (Pluto included for the moment). Gravity is considered in beteen any 2 of the 10 astronomical objects.
+Floating in the solitude of the deep darkness of the universe, you are in your super spaceship and about to explore our Solar system. This is a 2-dimentional universe (simplifying things but still reflects much of the reality) and in it there is only the Sun and its 9 planets (Pluto included for the moment) pulling one another by the Newton's law. Gravity is considered in beteen any 2 of the 10 astronomical objects, including you and your spaceship.
 
-Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time. 
+First you may warm yourself up by trying the controls. Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time (Known bug: high time mulitiplier may cause significant inaccuracy in the simulation). 
 
 [Transport me to that Spaceship!](https://eddydong.github.io/solar)
 

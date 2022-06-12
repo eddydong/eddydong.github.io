@@ -306,7 +306,7 @@ This was the project I did
 
 ![img](img/reversi/1.jpg)
 
-This is to commemorate my first AI algorithm back in 2001. The original one was down in Turbo Pascal and then Delphi - you're old enough if you heard of those names ;-) - and now rewritten in Javascript.
+This is to commemorate my first AI algorithm back in 2001. The original one was done in Turbo Pascal and then in Delphi - congrats you're "experienced enough" if you've heard any of those names ;-) - and now I re-wrote it in Javascript.
 
 The basic idea behind the AI algorithm was like the following:
 
@@ -316,7 +316,7 @@ The basic idea behind the AI algorithm was like the following:
 4. Repeat step #1 to #3 for several times (depth of AI thinking);
 5. The position with the highest gain value should be your next step.
 
-Sound easy but it needs some work to really turn the idea into workable code.
+Sound easy but it needs some work to really turn the idea into workable code, for instances:
 
 First you need to setup the chess map:
 

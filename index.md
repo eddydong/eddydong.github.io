@@ -252,8 +252,12 @@ Finally, here are some sketches by my son illustrating his universe fantasy - I 
 ![img](img/solar/IMG_9952.jpeg)
 ![img](img/solar/IMG_9953.jpeg)
 ![img](img/solar/IMG_9954.jpeg)
+![img](img/solar/IMG_9955.jpeg)
+![img](img/solar/IMG_9956.jpeg)
+![img](img/solar/IMG_9957.jpeg)
+![img](img/solar/IMG_9958.jpeg)
 
-Hope it inspires you in some way.
+I was indeed inspired by his fantasy to make this project. Hope it also inspires you in some way.
 
 Eddy K. Dong
 June 11, 2022

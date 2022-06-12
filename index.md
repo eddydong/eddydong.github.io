@@ -37,20 +37,37 @@ Then I thought of quite a few hypotheses for the simulation, and when you transl
 ![img](img/shanghai/1.jpeg)
 
 ```markdown
-// [Quarantine Rate, Mobility Throttle[防范区, 管控区, 封控区], 
-//	Quarantine Lag, Scenario Name]
-scenarios=[
-// Scenario #0: No Interference
-  [0.00, [1.00,1.00,1.00], 0, "No Intervention"],  	
-// Scenario #1: Shanghai Strict Mode
-  [0.99, [0.10,0.05,0.01], 3, "Shanghai Strict Mode"],
-// Scenario #2: Shanghai Loose Mode
-  [0.90, [0.40,0.05,0.01], 3, "Shanghai Loose Mode"],  
-// Scenario #3: Global Coexist Mode
-  [0.30, [1.00,1.00,1.00], 7, "Global Coexist Mode"]   
-],
-// intervention approach applied since interventionStartDay
-interference=3, 
+const
+	virusLongevityInHost=21, // BA2 survival days inside host
+	virusLongevityInEnv=7,	// BA2 survival days outside host
+	mobilitySkewness=0.7, // proportion of traveling within adjacent communities
+	population= 260000, // population index of Shanghai
+	scale=100, // times which we get the real population number
+	seedCases= 3, // positive case proportion in total population at the begining
+	infectionRate= 0.00252, // chance for a positive case to spread the virus to surrounding negative individuals in a day
+	vaccinationRate = 0.776, // vaccination rate : vaccine can ONLY reduce death rate and won't affect spreading rate
+	vaccinationEffectiveRate = 0.8; // chance for vaccinated people to resist BA2
+
+	otherDeathRatio= 0.000001, // severe disease hit rate per person per day
+	deathRateBA2=0.0016; // 1 death out of 10,000 positive cases
+```
+
+```markdown
+var
+  // [Quarantine Rate, Mobility Throttle[防范区, 管控区, 封控区], 
+  //	Quarantine Lag, Scenario Name]
+  scenarios=[
+  // Scenario #0: No Interference
+    [0.00, [1.00,1.00,1.00], 0, "No Intervention"],  	
+  // Scenario #1: Shanghai Strict Mode
+    [0.99, [0.10,0.05,0.01], 3, "Shanghai Strict Mode"],
+  // Scenario #2: Shanghai Loose Mode
+    [0.90, [0.40,0.05,0.01], 3, "Shanghai Loose Mode"],  
+  // Scenario #3: Global Coexist Mode
+    [0.30, [1.00,1.00,1.00], 7, "Global Coexist Mode"]   
+  ],
+  // intervention approach applied since interventionStartDay
+  interference=3, 
 ```
 From open sources I collected some data to describe the behavior of the virus, like how long it can survive in and outside its host, infection rate and death rate etc, and the behavior of people, like how frequently they will travel around in the city under different scenarios and where are they going etc, and some nature of the city, like the population and the amount of communities etc, and the lockdown measures, like how much proportion of the cases will be quarantined and how swiftly this process is, how strict the restrictions are for transportation & logistics for each of the 3-phase lockdown levels under each of the 3 scenarios. One thing to point out is the death rates. From what we’ve observed in the first 40 days of the Shanghai pandemic, actual death rate could be somewhere near 1 death out of 200 thousand. But for safety redundancy here I deliberately put an exaggerated number: 1 death out of 10 thousand. So we can be more confident to say that that the reality will be no worse than the simulation. For the non-covid lockdown death rate, we assume there will be 1 person die from lockdown related restrictions out of 1 million people in home confinement only. For we’ve seen so far, this should be a conservative estimation. We don’t want to underestimate the COVID death and overestimate the lockdown death.
 

@@ -1,20 +1,25 @@
 # EDDY'S CYBER GARAGE
 
-[SOLAR SYSTEM SIMULATION](#solar-simulation-for-my-son-mars)
-
-[GREEDY WORMS](#greedy-worms-for-my-son-mars)
+[APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
 [SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
 
-[APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
+[SOLAR SYSTEM SIMULATION](#solar-simulation-for-my-son-mars)
+
+[GREEDY WORMS](#greedy-worms-for-my-son-mars)
 
 [REVERSI](#reversi)
 
 ### APOLLO MUSIC IMPROVISING
 
+[Listen to the endless piano & cello duet improvised by Apollo](https://eddydong.github.io/apollo)
+
+
+[GO BACK TO TOP](#eddys-cyber-garage)
+
 ### SHANGHAI PANDEMIC SIMULATION
 
-Hey guys this is Eddy. I’m been working from home in Shanghai for 6 weeks in a row and now trapped in the lockdown. Like everyone in this city, I want to know more about what’s going on, and what it could be moving forward. So I devoted my weekend to write this simulator.
+Hey guys this is Eddy. I’m been working from home in Shanghai for 6 weeks in a row and now trapped in the lockdown. Like everyone in this city, I want to know more about what’s going on, and what it could be moving forward. So I devoted my weekend to write [this simulator](https://eddydong.github.io/shanghai).
 
 ![img](img/shanghai/0.jpeg)
 
@@ -248,6 +253,8 @@ June 11, 2022
 
 ### GREEDY WORMS (FOR MY SON MARS)
 
+[Play the webpage game](https://eddydong.github.io/greedy_worms)
+
 This was the project I did
 
 ![img](img/greedy_worms/1.jpg)
@@ -275,8 +282,11 @@ This was the project I did
 
 
 
+[GO BACK TO TOP](#eddys-cyber-garage)
 
-### REVERSI
+### REVSERSI
+
+[Play Reversi with Eddy's bot!](https://eddydong.github.io/reversi)
 
 
 All Right Reserved (C) Eddy K. Dong 2022

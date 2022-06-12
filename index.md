@@ -301,7 +301,8 @@ This was the project I did
 
 ### REVSERSI
 
-[Play Reversi with Eddy's bot!](https://eddydong.github.io/reversi)
+[Play Reversi with Eddy's brainchild!](https://eddydong.github.io/reversi)
+(Use Backspace to regret and withdraw your last move)
 
 ![img](img/reversi/1.jpg)
 

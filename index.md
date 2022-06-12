@@ -285,18 +285,23 @@ The most amazing part of the game to me is: You start with a tiny body and also 
 I was so into this little game and started thinking of writing one from scratch on my own - my typical reaction when I find something (not necessarily games or any computer programs) interesting in life ;-) 
 
 Here it is. You start from tiny, admiring those gigantic creatures slithering besides you.
+
 ![img](img/greedy_worms/2.jpg)
 
 And gradually you grew up a bit...
+
 ![img](img/greedy_worms/3.jpg)
 
 When you were identified as the next prey by a huge dragon...
+
 ![img](img/greedy_worms/4.jpg)
 
 And circled by it...
+
 ![img](img/greedy_worms/5.jpg)
 
 But you managed to slaughter the dragon. You ate its engergy and became a dragon...
+
 ![img](img/greedy_worms/6.jpg)
 
 And here is the secrets behind the AI of the NPC's. I 

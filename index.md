@@ -78,7 +78,58 @@ Let’s zoom out. You may notice the 3 red boxes out there. These are the commun
 Then on the right we will have all the constants, parameters and variables for the simulation. 
 On the bottom left, we have 5 charts to show key indicators like the daily new cases, death toll etc.
 
-Then I stitched all the hypotheses, scenarios, models and data together with computer programming, and realized the visualization concept I’ve just shown you.
+Then I stitched all the hypotheses, scenarios, models and data together with computer programming, and realized the visualization concept I’ve just shown you. Some critical codes are like the following:
+
+Virus spreading in communities:
+```markdown
+if (p.status==0 && !p.immune){
+	var x=p.x, y=p.y;
+	if (Math.random() < infectionRate)
+		if (moved==0 && tiles[y][x].lastPositive+virusLongevityInEnv>=day ||
+			(moved==2 && tiles[yy][xx].lastPositive+virusLongevityInEnv>=day) || (moved==1 &&
+		(  (x<tileW-1) && (tiles[y][x+1].lastPositive+virusLongevityInEnv>=day)
+		|| (x>0) && (tiles[y][x-1].lastPositive+virusLongevityInEnv>=day)
+		|| (y<tileH-1) && (tiles[y+1][x].lastPositive+virusLongevityInEnv>=day)
+		|| (y<tileH-1) && (x<tileW-1) && (tiles[y+1][x+1].lastPositive+virusLongevityInEnv>=day)
+		|| (y<tileH-1) && (x>0) && (tiles[y+1][x-1].lastPositive+virusLongevityInEnv>=day)
+		|| (y>0) && (tiles[y-1][x].lastPositive+virusLongevityInEnv>=day)
+		|| (y>0) && (x<tileW-1) && (tiles[y-1][x+1].lastPositive+virusLongevityInEnv>=day)
+		|| (y>0) && (x>0) && (tiles[y-1][x-1].lastPositive+virusLongevityInEnv>=day) ))) {
+			p.status=1;
+			p.testedPositive=day;
+			tiles[p.y][p.x].status=2; 
+			tiles[p.y][p.x].lastPositive=day;
+		};
+};
+```
+
+Quarantining:
+```markdown
+if (p.status==1 && !p.quarantined && (day-p.testedPositive)>=scenarios[scenario][2])
+	if (Math.random()<scenarios[scenario][0]) 
+		p.quarantined=1;
+```
+
+Individual recovering, getting immuned or dead from Covid:
+```markdown
+if (p.status==1 && day-p.testedPositive>durationPositive){
+	p.status=0;
+	if (p.quarantined) p.quarantined=0;
+	p.immune=1;
+	var vaccineWorks= 0;
+	if (p.vaccinated && Math.random()<vaccinationEffectiveRate)
+		vaccineWorks=1;			
+	if (Math.random()<deathRateBA2 && !vaccineWorks) p.dead=1;
+};
+```
+
+Individual dead from other causes related to the lockdown:
+```markdown
+if (Math.random()<otherDeathRatio && 
+	Math.random()>scenarios[scenario][1][tiles[p.y][p.x].status]){
+	p.dead=2;
+};
+```
 
 ![img](img/shanghai/3.jpeg)
 

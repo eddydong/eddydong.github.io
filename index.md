@@ -240,7 +240,22 @@ me = new Ball('Ship', ImgShip, 1, 0,0, -(6.375e6+1e2+550e3)-1.5e11, 0, 1e2, 100e
 
 Then I setup an annimation loop with [RequestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) and used the [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) to visualize all objects and their ever changing properties.
 
+Here is one of the original sketches I made to figure the physics out:
+![img](img/solar/IMG_9948.jpeg)
+
 This project was designed & implemented for my son, Mars, who is a big fun of Astronomy back in 2020 or so - 2 years ago from today. Not all funcitonalities mentioned above were were consolidated into the same program, the html file, yet, meaning you may need to try other ones in the same folder - let me know if you have particular interest in any of them and I'll help you find it out.
+
+Finally, here are some sketches by my son illustrating his universe fantasy - I carelessly found them in his secret journal ;-)
+
+![img](img/solar/IMG_9950.jpeg)
+![img](img/solar/IMG_9951.jpeg)
+![img](img/solar/IMG_9952.jpeg)
+![img](img/solar/IMG_9953.jpeg)
+![img](img/solar/IMG_9954.jpeg)
+![img](img/solar/IMG_9955.jpeg)
+![img](img/solar/IMG_9956.jpeg)
+![img](img/solar/IMG_9957.jpeg)
+![img](img/solar/IMG_9958.jpeg)
 
 Hope it inspires you in some way.
 

@@ -268,16 +268,39 @@ June 11, 2022
 
 ### GREEDY WORMS (FOR MY SON MARS)
 
-[Play the webpage game](https://eddydong.github.io/greedy_worms)
+[Play the prototype with AI](https://eddydong.github.io/greedy_worms)
 
-This was the project I did
+First of all, let's visit and worship the original work [Slither.io](http://slither.io). The was where all these started from. The only issue with Slither.io is that the network latency sometimes too high for this kind of real time multi-player action game. In fact this is common for any global MMOBA (Massive Multiplayer Online Battle Arena). Besides that, it's still the best in this category. 
 
-![img](img/greedy_worms/1.jpg)
+It followed the basic rules for a good game in almost every perspective: 
+- Extremely easy to start with;
+- But really hard to be at the top;
+- Failure comes with a feeling that we're gonna make it for the next attempt - and so you're hooked firmly;
+- Very strong interactions with a lot of real people in real time;
+- Very simple but very attractive graphics;
+- Webpage based - no hassle installing anything.
+
+The most amazing part of the game to me is: You start with a tiny body and also a tiny field of view, in which others may appear gigantic around you. When you grow up, your field of view is widen accordingly and you may notice some tiny ones around you - just like your starting point. At different stage you'll experience differenct mentalities - this is quite facinating!
+
+I was so into this little game and started thinking of writing one from scratch on my own - my typical reaction when I find something (not necessarily games or any computer programs) interesting in life ;-) 
+
+Here it is. You start from tiny, admiring those gigantic creatures slithering besides you.
 ![img](img/greedy_worms/2.jpg)
+
+And gradually you grew up a bit...
 ![img](img/greedy_worms/3.jpg)
+
+When you were identified as the next prey by a huge dragon...
 ![img](img/greedy_worms/4.jpg)
+
+And circled by it...
 ![img](img/greedy_worms/5.jpg)
+
+But you managed to slaughter the dragon. You ate its engergy and became a dragon...
 ![img](img/greedy_worms/6.jpg)
+
+And here is the secrets behind the AI of the NPC's. I 
+
 ![img](img/greedy_worms/7.jpg)
 ![img](img/greedy_worms/8.jpg)
 ![img](img/greedy_worms/9.jpg)
@@ -291,10 +314,6 @@ This was the project I did
 ![img](img/greedy_worms/a8.jpeg)
 ![img](img/greedy_worms/a9.jpeg)
 ![img](img/greedy_worms/a10.jpeg)
-
-
-
-
 
 
 [GO BACK TO TOP](#eddys-cyber-garage)

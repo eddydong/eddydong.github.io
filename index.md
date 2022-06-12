@@ -167,9 +167,9 @@ All Right Reserved (C) Eddy K. Dong 2022
 
 ### SOLAR SIMULATION (FOR MY SON MARS)
 
-Floating in the solitude of the deep darkness of the universe, this is your super spaceship. To simplify thing, this is just a 2-dimentional simulation, but should be very much like the 3-D scenario. Also in this simulated universe, there is only the Sun and its 9 planets (Pluto included for the moment). Gravity is considered in beteen any 2 of the 10 astronomical objects.
+Floating in the solitude of the deep darkness of the universe, you are in your super spaceship and about to explore our Solar system. The universe you're in is 2-dimentional - simplifying things but still reflecting much of the essentials - and in it there are only the Sun and its 9 planets (Pluto included for the moment, and plus the Moon) and you & your spaceshipt pulling one another by the Newton's law - Gravity is considered in beteen any 2 of the 12 astronomical objects including you.
 
-Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time. 
+First, let's warm up by trying the controls. Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time (Known bug: high time mulitiplier may cause significant inaccuracy in the simulation). 
 
 [Transport me to that Spaceship!](https://eddydong.github.io/solar)
 
@@ -191,7 +191,7 @@ All astronomical objects are presented with high-resolution textures for this si
 
 ![img](img/solar/4.jpg)
 
-If flying through the ring of Sature is still not crazy enough for you, let's switch of the collision detection for a while and do somethign really crazy! First, let's feel the gravity pull. You'll be lanuching the spaceship from the surface of the Earth and if you do not steer it to the orbital direction, it will do a free fall to the center of the Earth and be accelerated to an unbelievable high speed. This is called the Gravity Assist. In this case it's so strong and sends you to the deep space for a journey of no return.
+If flying through the ring of Saturn is still not crazy enough for you, let's switch of the collision detection for a while and do somethign really crazy! First, let's feel the gravity pull. You'll be lanuching the spaceship from the surface of the Earth and if you do not steer it to the orbital direction, it will do a free fall to the center of the Earth and be accelerated to an unbelievable high speed. This is called the Gravity Assist - an extreme one in this case - it's so strong and it fires you like a bullet to the deep space for a journey of no return...
 
 ![img](img/solar/5.jpg)
 
@@ -220,6 +220,9 @@ t= Math.acos(tt);
 rot=t+getAngle(x,y);
 ```
 
+Here is one of the original sketches I made to figure the physics out, which led to above shown codes:
+![img](img/solar/IMG_9948.jpeg)
+
 All phsical data were obtained from the internet and should be roughly reflect the reality of our Solar System.
 
 ```markdown
@@ -240,9 +243,6 @@ me = new Ball('Ship', ImgShip, 1, 0,0, -(6.375e6+1e2+550e3)-1.5e11, 0, 1e2, 100e
 
 Then I setup an annimation loop with [RequestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) and used the [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) to visualize all objects and their ever changing properties.
 
-Here is one of the original sketches I made to figure the physics out:
-![img](img/solar/IMG_9948.jpeg)
-
 This project was designed & implemented for my son, Mars, who is a big fun of Astronomy back in 2020 or so - 2 years ago from today. Not all funcitonalities mentioned above were were consolidated into the same program, the html file, yet, meaning you may need to try other ones in the same folder - let me know if you have particular interest in any of them and I'll help you find it out.
 
 Finally, here are some sketches by my son illustrating his universe fantasy - I carelessly found them in his secret journal ;-)
@@ -257,7 +257,7 @@ Finally, here are some sketches by my son illustrating his universe fantasy - I 
 ![img](img/solar/IMG_9957.jpeg)
 ![img](img/solar/IMG_9958.jpeg)
 
-Hope it inspires you in some way.
+I was indeed inspired by his fantasy to make this project. Hope it also inspires you in some way.
 
 Eddy K. Dong
 June 11, 2022
@@ -302,6 +302,20 @@ This was the project I did
 ### REVSERSI
 
 [Play Reversi with Eddy's bot!](https://eddydong.github.io/reversi)
+
+![img](img/reversi/1.jpg)
+
+This is to commemorate my first AI algorithm back in 2001. The original one was down in Turbo Pascal and then Delphi - you're old enough if you heard of those names ;-) - and now rewritten in Javascript.
+
+The basic idea was like the following:
+
+1. List all eligible positions that you can place your piece at;
+2. Note down the gain (number of opponent pieces you can reverse) you can get for each of these eligible positions;
+3. Imagine you are now your opponent, and repeat #1 & #2 but for #2 you add a minus sign in front of the gain;
+4. Repeat step #1 to #3 for several times (depth of AI thinking);
+5. The position with the highest gain value should be your next step.
+
+
 
 
 All Right Reserved (C) Eddy K. Dong 2022

@@ -316,7 +316,24 @@ The basic idea behind the AI algorithm was like the following:
 4. Repeat step #1 to #3 for several times (depth of AI thinking);
 5. The position with the highest gain value should be your next step.
 
+Sound easy but it needs some work to really turn the idea into workable code.
+
 First you need to setup the chess map:
+
+```markdown
+function initmap(){
+	map=[];
+	for (var i=0; i<mapsize; i++){
+		map.push([]);
+		for (var j=0; j<mapsize; j++)
+			map[i].push(0);
+	};
+	map[parseInt(mapsize/2)-1][parseInt(mapsize/2)-1]=1;
+	map[parseInt(mapsize/2)-1][parseInt(mapsize/2)]=2;
+	map[parseInt(mapsize/2)][parseInt(mapsize/2)-1]=2;
+	map[parseInt(mapsize/2)][parseInt(mapsize/2)]=1;
+};
+```
 
 For #1, you need define the game rules - how to define an eligible move:
 ```markdown
@@ -358,38 +375,19 @@ function caneat(player, themap, x,y){
 };
 ```
 
-For #3, you need to not only swap current player and do #1 & #2 again: 
-```markdown
-function eat(player, themap, x,y){
-	var done=false, offset=0, eating=false, count=0;
-	if (themap[y][x]!=0) return 0;
-	for (var d=0;d<8;d++){
-		done=false, offset=0, eating=false;
-		while (!done){
-			offset++;
-			if (y+dir[d][1]*offset>mapsize-1 || y+dir[d][1]*offset<0 || 
-				x+dir[d][0]*offset>mapsize-1 || x+dir[d][0]*offset<0 || 
-				themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==0 || 
-				themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==player) 
-				done=true;
-			if (offset>1 &&
-				y+dir[d][1]*offset>=0 && y+dir[d][1]*offset<mapsize && 
-				x+dir[d][0]*offset>=0 && x+dir[d][0]*offset<mapsize && 
-				themap[y+dir[d][1]*offset][x+dir[d][0]*offset]==player) 
-				eating=true;
-		};
-		if (eating && offset>1) {
-			for (var k=1;k<=offset;k++) 
-				themap[y+dir[d][1]*k][x+dir[d][0]*k]=player;
-			count+=offset-1;
-			themap[y][x]=player;
-		};
-	};
-	return count;
-};
-```
+Please refer to the [Github Project](https://github.com/eddydong/reversi) for the rest of the program, together with other versions, for instance the "AI Combat Mode", in which you put different AI algorithms, or the same algorithm but with different sets of AI parameters, and let them fight with each other and find out who is number one. You may setup 100 rounds and record the win's and loss'es for each algorithm - just like the A/B test.
 
-For #4, you need a draft map to make the imaginary moves used for the gain calculation - just like you use a draft paper to calculate before you write down the answer on your answer sheet.
+Theoretically, if the computer is fast enough to do a 30 level deep thinking using this algorithm, there will be no chance for its challenger to win at all. But the reality is: this algorithm runs slow even on a modern computer when the depth of search is set above 6. In other words, although it has already been very hard to defeat, but it's obviously not 100% sure that it will win the game.
+
+One way to improve this is to add some human experience rules on top of the search algorithm. To be specific, at the last (bottom) layer of the imaginary evaluation, instead of returning the gain/loss of that layer, arbitrage human touches on important positions on the map - like the 4 corners and some positions near them, and the 4 edges etc - will be added on top of the results of the search algorithm.
+
+Looks like a easy game and there are only a few scores of positions to consider and thus the game is always very quick. You may start thinking of solving it completely with any better algorithm. But the reality is:
+
+>The Othello 8x8 game tree size is estimated at 10<sup>54</sup> nodes, and the number of legal positions is estimated at less than 10<sup>28</sup>. The game remains unsolved. A solution could possibly be found using intensive computation with top programs on fast parallel hardware or through distributed computation.
+[Computer Othello on Wikipedia](https://en.wikipedia.org/wiki/Computer_Othello)
+
+Let's go visit and worship the strongest Reversi (or Othello) algorithm on this planet so far:
+[LOGISTELLO](https://skatgame.net/mburo/log.html)
 
 
 

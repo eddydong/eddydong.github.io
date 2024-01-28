@@ -14,7 +14,7 @@
 
 ### APOLLO MUSIC IMPROVISING
 
-[Listen to the endless piano & cello duet improvised by Apollo](https://eddydong.github.io/apollo)
+[Listen to the endless piano chorales improvised by Apollo](https://eddydong.github.io/apollo)
 
 ### LEAST SQUARE FROM SCRATCH
 
@@ -22,7 +22,7 @@
 
 Implementation of Gradient Descend to estimate a simple curve fit problem with pure python & numpy. Can be upgraded to a fully functional neuron network framework.
 
-[View Source Code](https://github.com/eddydong/PycharmProjects/blob/main/pythonProject/leastsq_test.py)
+[View The Source Code](https://github.com/eddydong/PycharmProjects/blob/main/pythonProject/leastsq_test.py)
 
 
 [GO BACK TO TOP](#eddys-cyber-garage)

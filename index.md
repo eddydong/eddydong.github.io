@@ -2,6 +2,8 @@
 
 [APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
+[LEAST SQURE FROM SCRATCH](#least-square)
+
 [SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
 
 [SOLAR SYSTEM SIMULATION](#solar-simulation-for-my-son-mars)
@@ -13,6 +15,14 @@
 ### APOLLO MUSIC IMPROVISING
 
 [Listen to the endless piano & cello duet improvised by Apollo](https://eddydong.github.io/apollo)
+
+### LEAST SQUARE FROM SCRATCH
+
+![img](img/neuron_research/leastsq.png)
+
+Implementation of Gradient Descend to estimate a simple curve fit problem with pure python & numpy. Can be upgraded to a fully functional neuron network framework.
+
+[View Source Code](https://eddydong.github.io/PycharmProjects/pythonProject/leastsq_test.py)
 
 
 [GO BACK TO TOP](#eddys-cyber-garage)

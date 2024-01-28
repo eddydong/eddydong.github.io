@@ -2,7 +2,7 @@
 
 [APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
-[LEAST SQURE FROM SCRATCH](#least-square)
+[LEAST SQURE FROM SCRATCH](#least-square-from-scratch)
 
 [SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
 
@@ -22,7 +22,7 @@
 
 Implementation of Gradient Descend to estimate a simple curve fit problem with pure python & numpy. Can be upgraded to a fully functional neuron network framework.
 
-[View Source Code](https://eddydong.github.io/PycharmProjects/pythonProject/leastsq_test.py)
+[View Source Code](https://github.com/eddydong/PycharmProjects/blob/main/pythonProject/leastsq_test.py)
 
 
 [GO BACK TO TOP](#eddys-cyber-garage)

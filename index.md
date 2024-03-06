@@ -14,7 +14,7 @@
 
 ### APOLLO MUSIC IMPROVISING
 
-[Listen to the endless piano chorales improvised by Apollo](https://eddydong.github.io/apollo)
+A project using rule based plus data driven methods to improvise music, generate chords and more. It features a very easy to use yet very powerful pianoroll, with all the AI tools to assist you compose your music. The project is still ongoing in private mode and will be launched when ready. Stay tuned.
 
 ### LEAST SQUARE FROM SCRATCH
 

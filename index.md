@@ -1,9 +1,9 @@
 # EDDY'S CYBER GARAGE
 
-With love, for my son Mars Z. Dong.
+With love, for my son Mars Z. Dong.\\\
 
 
-Table of Content
+###Table of Content
 
 [APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
@@ -17,7 +17,7 @@ Table of Content
 
 [REVERSI](#reversi)
 
-
+\\\
 
 ### APOLLO MUSIC IMPROVISING
 

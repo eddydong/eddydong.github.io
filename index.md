@@ -37,6 +37,9 @@ Some screenshots showing the recent progress:
 
 ![img](img/apollo/3.png)
 
+<br><br>
+
+[GO BACK TO TOP](#eddys-cyber-garage)
 
 ### LEAST SQURE (FOUNDATION FOR AI) FROM SCRATCH
 
@@ -46,6 +49,7 @@ Implementation of the Gradient Descend algorithm for estimating a simple classic
 
 [View The Source Code](https://github.com/eddydong/PycharmProjects/blob/main/pythonProject/leastsq_test.py)
 
+<br><br>
 
 [GO BACK TO TOP](#eddys-cyber-garage)
 
@@ -193,9 +197,9 @@ ANY THEORIES, DATA & MODELS HEREIN ARE IMAGINARY AND NOT REFLECTING THE REAL WOR
 
 All Right Reserved (C) Eddy K. Dong 2022
 
+<br><br>
+
 [GO BACK TO TOP](#eddys-cyber-garage)
-
-
 
 ### SOLAR SIMULATION (FOR MY SON MARS)
 
@@ -289,8 +293,9 @@ I was indeed inspired by his fantasy to make this project. Hope it also inspires
 Eddy K. Dong
 June 11, 2022
 
-[GO BACK TO TOP](#eddys-cyber-garage)
+<br><br>
 
+[GO BACK TO TOP](#eddys-cyber-garage)
 
 
 ### GREEDY WORMS (FOR MY SON MARS)
@@ -372,6 +377,7 @@ This time I hired a team to do the job while I was the project investor and the 
 ![img](img/greedy_worms/a9.jpeg)
 ![img](img/greedy_worms/a10.jpeg)
 
+<br><br>
 
 [GO BACK TO TOP](#eddys-cyber-garage)
 
@@ -474,7 +480,6 @@ Looks like a easy game and there are only a few scores of positions to consider 
 
 Let's go visit and worship the strongest Reversi (or Othello) algorithm on this planet so far:
 [LOGISTELLO](https://skatgame.net/mburo/log.html)
-
 
 
 All Right Reserved (C) Eddy K. Dong 2022

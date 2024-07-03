@@ -2,7 +2,7 @@
 
 [APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
-[LEAST SQURE FROM SCRATCH](#least-square-from-scratch)
+[LEAST SQURE (FOUNDATION FOR AI) FROM SCRATCH](#least-square-from-scratch)
 
 [SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
 
@@ -16,7 +16,7 @@
 
 A project using rule based plus data driven methods to improvise music, generate chords and more. It features a very easy to use yet very powerful pianoroll, with all the AI tools to assist you compose your music. The project is still ongoing in private mode and will be launched when ready. Stay tuned.
 
-### LEAST SQUARE FROM SCRATCH
+### LEAST SQURE (FOUNDATION FOR AI) FROM SCRATCH
 
 ![img](img/neuron_research/leastsq.png)
 

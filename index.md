@@ -1,5 +1,10 @@
 # EDDY'S CYBER GARAGE
 
+With love, for my son Mars Z. Dong.
+
+
+Table of Content
+
 [APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
 [LEAST SQURE (FOUNDATION FOR AI) FROM SCRATCH](#least-square-from-scratch)
@@ -11,6 +16,8 @@
 [GREEDY WORMS](#greedy-worms-for-my-son-mars)
 
 [REVERSI](#reversi)
+
+
 
 ### APOLLO MUSIC IMPROVISING
 

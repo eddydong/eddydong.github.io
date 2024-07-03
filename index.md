@@ -8,7 +8,7 @@ With love, for my son Mars Z. Dong.
 
 [APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
-[GRADIENT DESCEND FROM SCRATCH](#least-square-from-scratch)
+[GRADIENT DESCEND FROM SCRATCH](#gradient-descend-from-scratch)
 
 [SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
 

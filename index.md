@@ -8,7 +8,7 @@ With love, for my son Mars Z. Dong.
 
 [APOLLO MUSIC IMPROVISING](#apollo-music-improvising)
 
-[LEAST SQURE (FOUNDATION FOR AI) FROM SCRATCH](#least-square-from-scratch)
+[GRADIENT DESCEND FROM SCRATCH](#least-square-from-scratch)
 
 [SHANGHAI PANDEMIC SIMULATION](#shanghai-pandemic-simulation)
 
@@ -41,7 +41,7 @@ Some screenshots showing the recent progress:
 
 [GO BACK TO TOP](#eddys-cyber-garage)
 
-### LEAST SQURE (FOUNDATION FOR AI) FROM SCRATCH
+### GRADIENT DESCEND FROM SCRATCH
 
 ![img](img/neuron_research/leastsq.png)
 

@@ -21,7 +21,7 @@ Some screenshots showing the recent progress:
 ![img](img/apollo/2.png)
 ![img](img/apollo/1.png)
 
-[Listen to the endless Bach Chorales! (Press Enter to start after loading)](https://eddydong.github.io/solar)
+[Listen to the endless Bach Chorales! (Press Enter to start after loading)](https://eddydong.github.io/apollo)
 
 ![img](img/apollo/3.png)
 

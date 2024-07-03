@@ -281,7 +281,7 @@ Then I setup an annimation loop with [RequestAnimationFrame](https://developer.m
 
 This project was designed & implemented for my son, Mars, who is a big fun of Astronomy back in 2020 or so - 2 years ago from today. Not all funcitonalities mentioned above were were consolidated into the same program, the html file, yet, meaning you may need to try other ones in the same folder - let me know if you have particular interest in any of them and I'll help you find it out.
 
-Finally, here are some sketches by my son illustrating his universe fantasy - I carelessly found them in his secret journal ;-)
+Finally, here is why I started this project in the first place: I accidentally came across these in my son's "secret journal" and discovered his universe fantasy ;-)
 
 ![img](img/solar/IMG_9950.jpeg)
 ![img](img/solar/IMG_9956.jpeg)

@@ -258,14 +258,9 @@ This project was designed & implemented for my son, Mars, who is a big fun of As
 Finally, here are some sketches by my son illustrating his universe fantasy - I carelessly found them in his secret journal ;-)
 
 ![img](img/solar/IMG_9950.jpeg)
+![img](img/solar/IMG_9956.jpeg)
 ![img](img/solar/IMG_9951.jpeg)
 ![img](img/solar/IMG_9952.jpeg)
-![img](img/solar/IMG_9953.jpeg)
-![img](img/solar/IMG_9954.jpeg)
-![img](img/solar/IMG_9955.jpeg)
-![img](img/solar/IMG_9956.jpeg)
-![img](img/solar/IMG_9957.jpeg)
-![img](img/solar/IMG_9958.jpeg)
 
 I was indeed inspired by his fantasy to make this project. Hope it also inspires you in some way.
 

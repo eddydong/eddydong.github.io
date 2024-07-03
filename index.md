@@ -14,7 +14,11 @@
 
 ### APOLLO MUSIC IMPROVISING
 
-A project using rule based plus data driven methods to improvise music, generate chords and more. It features a very easy to use yet very powerful pianoroll, with all the AI tools to assist you compose your music. The project is a long-term one and currently in early stage.
+A project using rule based plus data driven methods to help composers to study and improvise music, including scales, chords, rhythms and more. It features a very easy to use yet very powerful browser-based pianoroll, with some built-in AI tools to assist music analysis and creation. 
+
+The project is 100% in pure Javascript.
+
+It's a long-term one and currently still in early stage.
 
 Some screenshots showing the recent progress:
 

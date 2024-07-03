@@ -14,7 +14,17 @@
 
 ### APOLLO MUSIC IMPROVISING
 
-A project using rule based plus data driven methods to improvise music, generate chords and more. It features a very easy to use yet very powerful pianoroll, with all the AI tools to assist you compose your music. The project is still ongoing in private mode and will be launched when ready. Stay tuned.
+A project using rule based plus data driven methods to improvise music, generate chords and more. It features a very easy to use yet very powerful pianoroll, with all the AI tools to assist you compose your music. The project is a long-term one and currently in early stage.
+
+Some screenshots showing the recent progress:
+
+![img](img/apollo/2.png)
+![img](img/apollo/1.png)
+
+[Listen to the endless Bach Chorales! (Press Enter to start after loading)](https://eddydong.github.io/solar)
+
+![img](img/apollo/3.png)
+
 
 ### LEAST SQURE (FOUNDATION FOR AI) FROM SCRATCH
 

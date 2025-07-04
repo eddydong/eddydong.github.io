@@ -4,11 +4,19 @@ With love, for my son Mars Z. Dong.
 
 [GO BACK TO MAIN](index.md)
 
+![img](img/shanghai/0.jpeg)
+
 ### SHANGHAI PANDEMIC SIMULATION
 
 Hey guys this is Eddy. I’m been working from home in Shanghai for 6 weeks in a row and now trapped in the lockdown. Like everyone in this city, I want to know more about what’s going on, and what it could be moving forward. So I devoted my weekend to write [this simulator](https://eddydong.github.io/shanghai).
 
-![img](img/shanghai/0.jpeg)
+
+<video width="480" controls>
+  <source src="img/shanghai/simulation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 First, my goals here are simple: trying to estimate the duration of this pandemic, the death toll of the BA2 infection and of other causes related to the lockdown, and the accumulated cases when it’s all over. And I set up 3 imaginary scenarios to analysis the impact of different interference methodologies.
 

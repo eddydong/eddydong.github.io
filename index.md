@@ -4,16 +4,16 @@ With love, for my son Mars Z. Dong.
 
 ### Table of Content
 
-[APOLLO MUSIC IMPROVISING](apollo.md)
+[APOLLO MUSIC IMPROVISING - Ever ongoing music theory experiment](apollo.md)
 
-[GRADIENT DESCEND FROM SCRATCH](gradient-descend.md)
+[GRADIENT DESCEND FROM SCRATCH - It is what it is](gradient-descend.md)
 
-[SHANGHAI PANDEMIC SIMULATION](shanghai.md)
+[SHANGHAI PANDEMIC SIMULATION - Agent-based simulation during Covid lockdown](shanghai.md)
 
-[SOLAR SYSTEM SANDBOX](solar.md)
+[SOLAR SYSTEM SANDBOX - Mars, let's go among the stars!](solar.md)
 
-[GREEDY WORMS](greedy-worms.md)
+[GREEDY WORMS - A passion project turned into a million dollar MMOBA](greedy-worms.md)
 
-[REVERSI](reversi.md)
+[REVERSI - Minimax algorithm from scratch](reversi.md)
 
 [DOZER - My Attempt To Tear Down The Wall](dozer/index.html)

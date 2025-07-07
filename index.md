@@ -16,4 +16,4 @@ With love, for my son Mars Z. Dong.
 
 [REVERSI](reversi.md)
 
-[DOZER](dozer/index.html)
+[DOZER - My Attempt To Tear Down The Wall](dozer/index.html)

@@ -6,7 +6,7 @@ With love, for my son Mars Z. Dong.
 
 ### GREEDY WORMS (FOR MY SON MARS)
 
-<video width="480" controls>
+<video width="80%" controls>
   <source src="img/greedy_worms/teaser.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -77,9 +77,9 @@ Above prototype was done by myself in the summer of 2015 (?) and then I decided 
 
 This time I hired a team to do the job while I was the project investor and the product manager. Then there came the Worm Heroes, the full-fledged version of the Greedy Worms the prototype. 
 
-![img](img/greedy_worms/poster.jpeg)
+![img](img/greedy_worms/poster.jpg)
 
-<video width="480" controls>
+<video width="80%" controls>
   <source src="img/greedy_worms/gameplay.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

@@ -91,7 +91,7 @@ Please refer to the [My Github Project](https://github.com/eddydong/reversi) for
 
 Here is a video showing the combats between 2 of my algorithms:
 
-<video width="480" controls>
+<video width="80%" controls>
   <source src="img/reversi/combat.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

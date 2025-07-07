@@ -6,6 +6,11 @@ With love, for my son Mars Z. Dong.
 
 ### GREEDY WORMS (FOR MY SON MARS)
 
+<video width="480" controls>
+  <source src="img/greedy_worms/teaser.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 [Play the prototype with AI](https://eddydong.github.io/greedy_worms)
 
 First of all, let's visit and worship the original work [Slither.io](http://slither.io). The was where all these started from. The only issue with Slither.io is that the network latency sometimes too high for this kind of real time multi-player action game. In fact this is common for any global MMOBA (Massive Multiplayer Online Battle Arena). Besides that, it's still the best in this category. 
@@ -71,6 +76,11 @@ Above prototype was done by myself in the summer of 2015 (?) and then I decided 
 4. High concurrency low latency servers setup in Sound, North & East China.
 
 This time I hired a team to do the job while I was the project investor and the product manager. Then there came the Worm Heroes, the full-fledged version of the Greedy Worms the prototype. 
+
+<video width="480" controls>
+  <source src="img/greedy_worms/gameplay.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ![img](img/greedy_worms/a1.jpeg)
 ![img](img/greedy_worms/a2.jpeg)

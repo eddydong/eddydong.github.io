@@ -4,6 +4,8 @@ With love, for my son Mars Z. Dong.
 
 ### Table of Content
 
+[WEBGPU EXPERIMENT - 2 million particles chasing your mouse with glowing effect](webgpu-particles)
+
 [APOLLO MUSIC IMPROVISING - Ever ongoing music theory experiment](apollo.md)
 
 [GRADIENT DESCEND FROM SCRATCH - It is what it is](gradient-descend.md)

@@ -22,10 +22,12 @@ With love, for my son Mars Z. Dong.
 
 [GREEDY WORMS - A passion project turned into a million dollar MMOBA](greedy-worms.md)
 
-[REVERSI - Minimax algorithm from scratch](reversi.md)
+[TOUCH - Don't google it, touch it!](touch.md)
 
 [DOZER - My Attempt To Tear Down The Wall](dozer/index.html)
 
-[TOUCH - Don't google it, touch it!](touch.md)
+[REVERSI - Minimax algorithm from scratch - The first AI I built in my life!](reversi.md)
+
+[Thunder - The first 2D game I wrote in my life](thunder.md)
 
 [POOL3D - The first 3D game I wrote in my life](pool3d.md)

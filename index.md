@@ -4,7 +4,7 @@ With love, for my son Mars Z. Dong.
 
 ### Table of Content
 
-[PRICE TARGET RESEARCH - Empirical research on how Analyst Price Target unveals future stock price (if ever)](pt_research/)
+[PRICE TARGET RESEARCH - Empirical research on how Analyst Price Target unveals future stock price (if it ever has ;-)](pt_research/)
 
 [WEBGPU EXPERIMENT - From the Big Bang to the formation of galaxies](galaxy-webgpu/)
 

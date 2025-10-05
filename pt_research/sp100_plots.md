@@ -1,6 +1,12 @@
 # SP100 consolidated plots
 
-Generated plots: price (red), mean (grey), low/high band (light grey)
+Research Window: Oct 1, 2015 to Sep 30, 2025
+
+Plots For Each Symbol: 
+1. 10-year Analysis Price Target vs. Actual Price movement
+2. Impulse Analysis on Price Target change greater than +/- 1% on various holding windows.
+
+Data Source: Yahoo Finance
 
 ## ABBV
 

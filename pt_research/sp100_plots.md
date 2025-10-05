@@ -1,4 +1,4 @@
-# SP100 consolidated plots
+# Analyst Price Target: Make Any Sense At All?
 
 Research Window: Oct 1, 2015 to Sep 30, 2025
 

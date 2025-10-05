@@ -3,8 +3,8 @@
 Research Window: Oct 1, 2015 to Sep 30, 2025
 
 Plots For Each Symbol: 
-1. 10-year Analysis Price Target vs. Actual Price movement
-2. Impulse Analysis on Price Target change greater than +/- 1% on various holding windows.
+1. 10-year Analyst Price Target vs. actual price movement
+2. Return over different horizons with Price Target driven strategy
 
 Data Source: Yahoo Finance
 

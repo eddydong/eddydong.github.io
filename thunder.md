@@ -11,6 +11,6 @@ With love, for my son Mars Z. Dong.
 
 ### THUNDER 2D
 
-A 2D shooting game I wrote in 2002 with Delphi + OpenGL.
+A 2D shooting game I wrote in 2002 with Delphi + DirectX.
 
 [GO BACK TO MAIN](index.md)

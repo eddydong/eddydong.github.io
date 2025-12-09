@@ -10,7 +10,7 @@ With love, for my son Mars Z. Dong.
 
 [ANALYST USEFUL?  - How Analyst Price Target unveals future stock price (if it ever has ;-)](pt_research/sp100_plots.md)
 
-[WEBGPU EXPERIMENT - From the Big Bang to the formation of galaxies](galaxy-webgpu/)
+[WEBGPU EXPERIMENT - From the Big Bang to the formation of galaxies](gravity.md)
 
 [WEBGPU EXPERIMENT - 2 million particles chasing your mouse with glowing effect](WebGPU-Particles/)
 

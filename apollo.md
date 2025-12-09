@@ -14,9 +14,7 @@ It's a long-term one and currently still in early stage.
 
 Some screenshots showing the recent progress:
 
-![img](img/apollo/2.png)
 ![img](img/apollo/1.png)
-![img](img/apollo/3.png)
 ![img](img/apollo/chord analysis.png)
 
 Auto-chord by Apollo for an improvised melody by itself

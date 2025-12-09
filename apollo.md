@@ -31,6 +31,12 @@ Multi-track improvised loop 100% by Apollo
   Your browser does not support the video tag.
 </video>
 
+Multi-track improvision in non-major/minor scales 100% by Apollo
+<video width="80%" controls>
+  <source src="img/apollo/337.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 An un-named jazz improvision 70% done by apollo
 <video width="80%" controls>
   <source src="img/apollo/25.mp4" type="video/mp4">

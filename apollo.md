@@ -10,9 +10,12 @@ A project using rule based plus data driven methods to help composers to study a
 
 The project is 100% in pure Javascript.
 
-It's a long-term one and currently still in early stage.
+It's a long-term one and currently still in early stage. 
+
+( The project started in 2022 before the advent of Generative AI )
 
 Some screenshots showing the recent progress:
+
 ![img](img/apollo/1.png)
 ![img](img/apollo/chord analysis.png)
 

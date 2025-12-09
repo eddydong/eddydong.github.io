@@ -6,14 +6,13 @@ With love, for my son Mars Z. Dong.
 
 ### APOLLO MUSIC IMPROVISING
 
-A project using rule based plus data driven methods to help composers to study and improvise music, including scales, chords, rhythms and more. It features a very easy to use yet very powerful browser-based pianoroll, with some built-in AI tools to assist music analysis and creation. 
+A project using rule based plus data driven methods to help composers to study and improvise music, including scales, chords, rhythms and more. It features an easy to use yet very powerful browser-based pianoroll written from scratch and some customized AI capabilities built from scratch to assist music analysis and improvisation. 
 
 The project is 100% in pure Javascript.
 
 It's a long-term one and currently still in early stage.
 
 Some screenshots showing the recent progress:
-
 ![img](img/apollo/1.png)
 ![img](img/apollo/chord analysis.png)
 
@@ -29,13 +28,13 @@ Multi-track improvised loop 100% by Apollo
   Your browser does not support the video tag.
 </video>
 
-Multi-track improvision in non-major/minor scales 100% by Apollo
+Multi-track improvisation in non-major/minor scales 100% by Apollo
 <video width="80%" controls>
   <source src="img/apollo/337.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-An un-named jazz improvision 70% done by apollo
+An un-named jazz improvisation 70% done by apollo
 <video width="80%" controls>
   <source src="img/apollo/25.mp4" type="video/mp4">
   Your browser does not support the video tag.

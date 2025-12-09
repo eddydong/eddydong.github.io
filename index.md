@@ -30,6 +30,8 @@ With love, for my son Mars Z. Dong.
 
 [DOZER - My Attempt To Tear Down The Wall](dozer/index.html)
 
+[Binomial Tree Option Pricing Algorithm Improvement](option.md)
+
 [REVERSI - Minimax algorithm from scratch - The first AI I built in my life!](reversi.md)
 
 [Thunder - The first 2D game I wrote in my life](thunder.md)

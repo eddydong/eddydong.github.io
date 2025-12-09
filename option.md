@@ -2,14 +2,12 @@
 
 With love, for my son Mars Z. Dong.
 
-[GO BACK TO MAIN](index.md)
+Improved binomial-tree option pricing algothm done when I was in Peking University. May not be impressive today but was something back then by pushing the step limit up to 2000 on computers of that time.
 
-![img](img/option/1.jpg)
+![img](img/option/1.png)
 
-![img](img/option/2.jpg)
-
-### SOLAR SYSTEM SANDBOX
-
+Converted from the old Delphi project by AI.
+![img](img/option/2.png)
 
 [Try the Web version](https://eddydong.github.io/binomial_tree_option_pricing)
 

@@ -2,7 +2,7 @@
 
 With love, for my son Mars Z. Dong.
 
-Improved binomial-tree option pricing algothm done when I was in Peking University. May not be impressive today but was something back then by pushing the step limit up to 2000 on computers of that time.
+Improved binomial-tree option pricing algothm designed by me in 2008 when I was in Peking University. May not be impressive today but was something back then by pushing the iteration step limit up to 2000 on the computers of that time.
 
 ![img](img/option/1.png)
 

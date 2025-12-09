@@ -58,6 +58,5 @@ Backstage 2: Apollo improvising some element for "Redemption"
   Your browser does not support the video tag.
 </video>
 
-[Listen to the endless Bach Chorales! (Press Enter to start after loading)](https://eddydong.github.io/apollo)
 
 [GO BACK TO MAIN](index.md)

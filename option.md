@@ -11,7 +11,7 @@ With love, for my son Mars Z. Dong.
 ### SOLAR SYSTEM SANDBOX
 
 
-[Try the Web version](https://eddydong.github.io/binomial_tree_option_pricing/JS Version 2025)
+[Try the Web version](https://eddydong.github.io/binomial_tree_option_pricing)
 
 
 [GO BACK TO MAIN](index.md)

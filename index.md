@@ -4,7 +4,7 @@ With love, for my son Mars Z. Dong.
 
 ### Table of Content
 
-[VOO NEXT - AI-native S&P500 (VOO) trend predictor](voofront/)
+[BUY THE DIP - Does buying the dip improve dollar-cost averaging?](buy-the-dip.md)
 
 [BUY/SELL VS RETURN  - If/How foreign holdings change affect HKEX return?](hkex_position_vs_return.md)
 

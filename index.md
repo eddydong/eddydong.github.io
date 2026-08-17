@@ -4,6 +4,12 @@ With love, for my son Mars Z. Dong.
 
 ### Table of Content
 
+[VIBEBI - Free on-premise enterprise BI you can talk to](vibebi.md)
+
+[WBW - Word By Word dictation training for listening and spelling](wbw.md)
+
+[DIPALERTS - After-close market dip alerts, not a buy call](dipalerts.md)
+
 [BUY THE DIP - Does buying the dip improve dollar-cost averaging?](buy-the-dip.md)
 
 [BUY/SELL VS RETURN  - If/How foreign holdings change affect HKEX return?](hkex_position_vs_return.md)

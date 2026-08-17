@@ -12,13 +12,7 @@ With love, for my son Mars Z. Dong.
 
 [BUY THE DIP - Does buying the dip improve dollar-cost averaging?](buy-the-dip.md)
 
-[BUY/SELL VS RETURN  - If/How foreign holdings change affect HKEX return?](hkex_position_vs_return.md)
-
-[ANALYST USEFUL?  - How Analyst Price Target unveals future stock price (if it ever has ;-)](pt_research/sp100_plots.md)
-
 [WEBGPU EXPERIMENT - From the Big Bang to the formation of galaxies](gravity.md)
-
-[WEBGPU EXPERIMENT - 2 million particles chasing your mouse with glowing effect](WebGPU-Particles/)
 
 [APOLLO MUSIC IMPROVISING - Ever ongoing music theory experiment](apollo.md)
 

@@ -4,6 +4,8 @@ With love, for my son Mars Z. Dong.
 
 ### Table of Content
 
+[QUANTPREP - AI for Quant interview prep](quantprep.md)
+
 [VIBEBI - Free on-premise enterprise BI you can talk to](vibebi.md)
 
 [WBW - Word By Word dictation training for listening and spelling](wbw.md)

@@ -11,7 +11,7 @@ With love, for my son Mars Z. Dong.
   Your browser does not support the video tag.
 </video>
 
-[Play the prototype with AI](https://eddydong.github.io/greedy_worms)
+[Play the prototype with AI](https://eddykd.com/greedy_worms)
 
 First of all, let's visit and worship the original work [Slither.io](http://slither.io). The was where all these started from. The only issue with Slither.io is that the network latency sometimes too high for this kind of real time multi-player action game. In fact this is common for any global MMOBA (Massive Multiplayer Online Battle Arena). Besides that, it's still the best in this category. 
 

@@ -9,7 +9,7 @@ Improved binomial-tree option pricing algothm designed by me in 2008 when I was 
 Converted from the old Delphi project by AI.
 ![img](img/option/2.png)
 
-[Try the Web version](https://eddydong.github.io/binomial_tree_option_pricing)
+[Try the Web version](https://eddykd.com/binomial_tree_option_pricing)
 
 
 [GO BACK TO MAIN](index.md)

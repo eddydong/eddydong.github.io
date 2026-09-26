@@ -6,7 +6,7 @@ With love, for my son Mars Z. Dong.
 
 ### REVSERSI
 
-[Play Reversi with Eddy's brainchild!](https://eddydong.github.io/reversi)
+[Play Reversi with Eddy's brainchild!](https://eddykd.com/reversi)
 (Use Backspace to regret and withdraw your last move)
 
 ![img](img/reversi/1.jpg)
@@ -87,7 +87,7 @@ function bestmove(player, ai_level){
 };
 ```
 
-Please refer to the [My Github Project](https://github.com/eddydong/reversi) for the rest of the program, together with other versions, for instance the "AI Combat Mode", in which you put different AI algorithms, or the same algorithm but with different sets of AI parameters, and let them fight with each other and find out who is number one. You may setup 100 rounds and record the win's and loss'es for each algorithm - just like the A/B test. [AI Combat Version](https://eddydong.github.io/reversi/reversi AI arena 1.html)
+Please refer to the [My Github Project](https://github.com/eddydong/reversi) for the rest of the program, together with other versions, for instance the "AI Combat Mode", in which you put different AI algorithms, or the same algorithm but with different sets of AI parameters, and let them fight with each other and find out who is number one. You may setup 100 rounds and record the win's and loss'es for each algorithm - just like the A/B test. [AI Combat Version](https://eddykd.com/reversi/reversi AI arena 1.html)
 
 Here is a video showing the combats between 2 of my algorithms:
 

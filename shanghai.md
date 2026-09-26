@@ -8,7 +8,7 @@ With love, for my son Mars Z. Dong.
 
 ### SHANGHAI PANDEMIC SIMULATION
 
-Hey guys this is Eddy. I’m been working from home in Shanghai for 6 weeks in a row and now trapped in the lockdown. Like everyone in this city, I want to know more about what’s going on, and what it could be moving forward. So I devoted my weekend to write [this simulator](https://eddykd.com/shanghai).
+Hey guys this is Eddy. I’m been working from home in Shanghai for 6 weeks in a row and now trapped in the lockdown. Like everyone in this city, I want to know more about what’s going on, and what it could be moving forward. So I devoted my weekend to write [this simulator](https://eddydong.github.io/shanghai).
 
 
 <video width="80%" controls>

@@ -15,7 +15,7 @@ Floating in the solitude of the deep darkness of the universe, you are in your s
 
 First, let's warm up by trying the controls. Use arrow key Up/Down for speed up/down, left/right for steering. "A"/"Z" to zoom in/out, "Q"/"W" to accelerate/decelerate in time (Known bug: high time mulitiplier may cause significant inaccuracy in the simulation). 
 
-[Transport me to that Spaceship!](https://eddykd.com/solar)
+[Transport me to that Spaceship!](https://eddydong.github.io/solar)
 
 ![img](img/solar/1.jpg)
 
